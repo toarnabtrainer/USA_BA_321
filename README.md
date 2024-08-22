@@ -48,7 +48,7 @@ https://www.drawio.com/blog/diagrams-offline
 **YouTube UML Tutorial Link:**<br>
 https://www.youtube.com/watch?v=gUEizau0-UQ&list=PLWPirh4EWFpF9Gbnu4_DdF4ITHSN6MSsk
 
-**UML Text Tutorial Link:**<br>
+**UML Text Toturial Link:**<br>
 https://www.geeksforgeeks.org/unified-modeling-language-uml-introduction/
 
 **UML Project Diagram Samples:**<br>
@@ -173,9 +173,11 @@ https://in.pinterest.com/meeraacademy/project-uml-diagram/
 * **Query-4:** List those category details which has no product.
 <br>**Output:** ![image](https://github.com/toarnabtrainer/Data_Sources/assets/111301975/6f144d15-1dd3-41e8-828e-574c07f2af75)
   
-**Lookup/Dimension Tables and Data/Fact Tables:**<br>
-Lookup Tables or Dimension Tables will have Primary Keys, will answer Who, What, Where, When and How<br>
-Data Tables or Fact Tables will have Foreign Keys, and will contain transactional data
+**Lookup/Dimension Tables and Data/Fact Tables:** <br>
+Lookup Tables or Dimension Tables will have Primary Keys, will answer Who, What, Where, When and How <br>
+Data Tables or Fact Table will have Foreign Keys, and will contain transactional data <br> <br>
+**Lookup/Dimenation Tables:** Customer (Who), Product (What), Territories (Where), Calendar (When and How) <br>
+**Data/Fact Tables:** Sales, Budget
 
 **Operations on Budget Workbook:** <br>
 * Delete the promoted header
@@ -188,19 +190,27 @@ Data Tables or Fact Tables will have Foreign Keys, and will contain transactiona
 * Change the data type of Month column to Date
 * Select close and apply <br>
 
-**Data Relationships for the Budget Project:**<br>
-* Sales(CustomerKey) -> Customer(CustomerKey)<br>
-* Sales(OrderDate) -> Calendar(Date)<br>
-* Sales(ProductKey) -> Product(ProductKey)<br>
-* Sales(SalesTerritoryKey) -> Territories(SalesTerritoryKey)<br>
-* Budget(ProductKey) -> Product(ProductKey)<br>
-* Budget(Month) -> Calendar(Date)<br>
+**Data Relationships for the Budget Project:** <br>
+* Sales(CustomerKey) -> Customer(CustomerKey) <br>
+* Sales(OrderDate) -> Calendar(Date) <br>
+* Sales(ProductKey) -> Product(ProductKey) <br>
+* Sales(SalesTerritoryKey) -> Territories(SalesTerritoryKey) <br>
+* Budget(ProductKey) -> Product(ProductKey) <br>
+* Budget(Month) -> Calendar(Date) <br>
 
-**Suggested Tables Summaries (After filtering on Year 2016):**<br>
+**Suggested DAX Formulaes for Creating Measures:** <br>
+* MyBudget = SUM(Budget[BudgetAmount])
+* MySales = SUM(Sales[SalesAmount])
+* MyVariance = [MySales] - [MyBudget]
+* MyVariance% = DIVIDE([MyVariance], [MyBudget], 0)
+* MyComments = IF([MyVariance] < -100000, "Take Care", IF([MyVariance] < 0, "Not OK", "OK"))
+
+**Suggested Tables Summaries (After filtering on Year 2016):** <br>
 *	**Table1:** Calendar[Year], Calendar[Month], Sum of Sales[SalesAmount] 
 *	**Table2:** Calendar[Year], Calendar[Month], Sum of Budget[BudgetAmount]
 *	**Table3:** Territories[Country], Sum of Sales[SalesAmount]
 *	**Table4:** Calendar[Year], Calendar[Month], Sum of Sales[SalesAmount], Sum of Budget[BudgetAmount]
+* **Table5:** Calendat[Year], Calendar[Month], Budget[MySales], Budget[MyBudget], Budget[MyVariance], Budget[MyVariance%], Budget[MyComment]
 
 <hr>
 
