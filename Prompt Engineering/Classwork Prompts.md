@@ -1,4 +1,6 @@
 <pre>
+MS-Excel
+----------------------------------------------------------------------------------------
 Find total of the "cost" column.
 Format "OrderDate" column to long date format.
 Do the filtering on the table with cost greater then 2000.
@@ -27,4 +29,93 @@ Clear all conditional formatting.
 Show data insights
 Add all insights to grid.
 Insert a column Age in years, months and days calculated from "Order Date"
+
+MS-Power Point
+----------------------------------------------------------------------------------------
+Create a presentation about Facebook marketing strategy for "Noodle House", a quick-service noodle restaurant started by two cofounders named Karan and Rohit.
+Insert a slide on Facebook marketing strategy roadmap.
+At the end insert one thank you slide for the audience.
+
+Please prepare a detailed topic list with sub topics based on the following points -
+The data ecosystem
+▪ Sources of data
+▪ Databases
+▪ Structured and unstructured data
+▪ Big Data
+▪ Data workflows
+▪ Data warehouses, Data marts, Data lakes
+▪ Cloud storage
+
+Create a presentation about based on the following topic list on "The Data Ecosystem", prepare an appropriate presentation
+
+### The Data Ecosystem
+
+#### 1. Sources of Data
+- **Internal**: Transactional, Customer, Operational Data
+- **External**: Social Media, Public Data Sets, Market Research, Web Scraping
+
+#### 2. Databases
+- **Relational**: SQL Databases (MySQL, PostgreSQL, Oracle), ACID properties
+- **NoSQL**: Document, Key-Value, Column-Family, Graph (MongoDB, Cassandra, Redis)
+
+#### 3. Structured and Unstructured Data
+- **Structured**: Schema, Tables (Spreadsheets, SQL Databases)
+- **Unstructured**: No predefined format (Text Files, Images, Videos)
+- **Semi-Structured**: Tags, Markup (XML, JSON)
+
+#### 4. Big Data
+- **Characteristics**: Volume, Velocity, Variety, Veracity, Value
+- **Technologies**: Hadoop (HDFS, MapReduce), Spark, NoSQL (HBase, Cassandra)
+
+#### 5. Data Workflows
+- **Ingestion**: Batch, Real-Time Processing
+- **Processing**: ETL, ELT
+- **Integration**: Data Cleaning, Transformation
+- **Analysis**: Descriptive, Predictive, Prescriptive Analytics
+
+#### 6. Data Warehouses, Data Marts, Data Lakes
+- **Warehouses**: Structured, Historical Data (Redshift, BigQuery)
+- **Marts**: Subject-Oriented (Sales, Marketing Data Marts)
+- **Lakes**: Raw Data, Schema-on-Read (AWS S3, Azure Data Lake)
+
+#### 7. Cloud Storage
+- **Providers**: AWS (S3, Glacier), Google Cloud (Storage, Nearline), Azure (Blob, Archive)
+- **Benefits**: Scalability, Cost Efficiency, Accessibility
+- **Challenges**: Security, Transfer Costs, Compliance
+
+I hope this fits your needs! Let me know if you need further adjustments.
+
+-------------------------------------------------------------------------------------------------------------
+Create a presentation about based on a Tour Plan available against this link:
+https://totsoltechnologies-my.sharepoint.com/:w:/g/personal/contact_totsoltechnologies_onmicrosoft_com/Efsy0tP9qylDs_A-d5rids8BEDGaWj-9Sv_pGBM48-Exdg?e=hcgzVS
+
+Create images based on a jungle safari by a jeep.
+
+Summarize this following book in 15 to 20 bullet points - (Ebook in German Language as attached)
+Could you read the whole book which I attached?
+
+-----------------------------------------------------------------------------------------------------------
+
+Write a letter to one web-server administrator to request him to create one active directory where my company will launch one corporate web portal www.innovationtech.com very recently. Also also request him to share all the login and configuration credentials. Also request him to express all terms and conditions.
+
+Write a reply letter from the web-server administrator to share all required details ans status information.
+
 </pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
